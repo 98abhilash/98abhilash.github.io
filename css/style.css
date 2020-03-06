@@ -70,7 +70,7 @@ body {
 
 #name {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -101,13 +101,21 @@ body {
   padding: 30px;
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  transition: 0.5s ease-out;
+  transition: 0.3s ease-out;
   width: 30vw;
+  font-size: 14px;
+  
 }
 
 #box button:hover {
   padding: 35px;
   font-size: 18px;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #fa2b2b 0%, #eb57ff 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  
 }
 
 @media screen and (max-width: 600px) 
@@ -119,4 +127,18 @@ body {
   #name {
     top:20%;
   }
+}
+
+#projects_div
+{
+  position: absolute;
+  top:45%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+#projects_div p {
+  color: white;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
 }
