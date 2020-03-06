@@ -9,4 +9,3 @@ function openNav() {
     document.getElementById("myNav").style.width = "0%";
     document.getElementById("nav").hidden = false;
   }
-
