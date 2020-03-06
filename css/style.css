@@ -90,27 +90,27 @@ body {
 
 #box {
   position: absolute;
-  top: 70%;
-  left: 50%;
+  top: 80%;
+  left: 20%;
   transform: translate(-50%,-50%);
   padding: 20px;
   
 }
 
 #box button {
-  padding: 50px;
+  padding: 30px;
   color: white;
   font-family: 'Courier New', Courier, monospace;
   transition: 0.5s ease-out;
 }
 
 #box button:hover {
-  padding: 55px;
-  font-size: 22px;
+  padding: 35px;
+  font-size: 18px;
 }
 
 @media screen and (max-height: 450px) {
-  #box button:hover {font-size: 18px;
+  #box button:hover {font-size: 14px;
   padding: 25px;}
   #box button {
     padding: 20px;
